@@ -113,7 +113,12 @@ function Navbar() {
         <ul className="p-6 space-y-4 text-sm">
           <li><a href="#home" onClick={() => setIsOpen(false)} className="hover:text-yellow-400 block">Home</a></li>
           <li><a href="#competitive" onClick={() => setIsOpen(false)} className="hover:text-yellow-400 block">Competitive</a></li>
-          <li><a href="/projects" onClick={() => setIsOpen(false)} className="hover:text-yellow-400 block">Projects</a></li>
+          <li>
+  <Link to="/projects" onClick={() => setIsOpen(false)} className="hover:text-yellow-400 block">
+    Projects
+  </Link>
+</li>
+
           <li><a href="#contact" onClick={() => setIsOpen(false)} className="hover:text-yellow-400 block">Contact</a></li>
           <li className="pt-4 border-t border-gray-600">
             <div className="flex gap-4">
