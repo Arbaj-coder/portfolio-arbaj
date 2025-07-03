@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import useDarkMode from "../hooks/useDarkMode";
 
 function Navbar() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   const [theme, toggleTheme] = useDarkMode();
 
   return (
