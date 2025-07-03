@@ -119,7 +119,8 @@ function Navbar() {
   </Link>
 </li>
 
-          <li><a href="#contact" onClick={() => setIsOpen(false)} className="hover:text-yellow-400 block">Contact</a></li>
+          <li><Link to="/#contact" className="hover:text-[#00ff88]">Contact</Link>
+</li>
           <li className="pt-4 border-t border-gray-600">
             <div className="flex gap-4">
               {/* Sun Icon */}
