@@ -1,8 +1,22 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import svgr from 'vite-plugin-svgr';
-// https://vite.dev/config/
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import { resolve } from 'path';
+import { copyFileSync } from 'fs';
+
 export default defineConfig({
-  plugins: [react() , svgr()],
-  publicDir: 'public'
-})
+  plugins: [react()],
+  build: {
+    rollupOptions: {
+      // hook to copy _redirects manually
+      output: {
+        // after build is complete
+        plugins: [{
+          name: 'copy-redirects',
+          generateBundle() {
+            copyFileSync('public/_redirects', 'dist/_redirects');
+          }
+        }]
+      }
+    }
+  }
+});
