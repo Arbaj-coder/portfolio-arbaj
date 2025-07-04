@@ -119,7 +119,7 @@ function Navbar() {
   </Link>
 </li>
 
-          <li><Link to="/#contact" className="hover:text-[#00ff88]">Contact</Link>
+          <li><a href="#contact" className="hover:text-[#00ff88]">Contact</a>
 </li>
           <li className="pt-4 border-t border-gray-600">
             <div className="flex gap-4">
