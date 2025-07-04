@@ -110,8 +110,8 @@ function Navbar() {
           </button>
         </div>
         <ul className="p-6 space-y-4 text-sm">
-          <li><a href="#home" onClick={() => setIsOpen(false)} className="hover:text-yellow-400 block">Linkedin</a></li>
-          <li><a href="#about" onClick={() => setIsOpen(false)} className="hover:text-yellow-400 block">Github</a></li>
+          <li><a href="https://www.linkedin.com/in/arbaj-khan-8a9123260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" onClick={() => setIsOpen(false)} className="hover:text-yellow-400 block">Linkedin</a></li>
+          <li><a href="https://github.com/Arbaj-coder" onClick={() => setIsOpen(false)} className="hover:text-yellow-400 block">Github</a></li>
           <li><Link to="/" onClick={() => setIsOpen(false)} className="hover:text-yellow-400 block">Home</Link></li>
           <li className="pt-4 border-t border-gray-600">
             <div className="flex gap-4">
