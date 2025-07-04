@@ -4,7 +4,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Certificates from "./components/Certificate";
 import CompetitiveProfiles from "./components/CompetitiveProfiles";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Projects from "./pages/Projects";
 
 import './App.css';
