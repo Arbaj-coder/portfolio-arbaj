@@ -9,7 +9,7 @@ const Home = () => {
     <section id="home" className="bg-[#111] text-white font-['Nunito'] min-h-screen relative " >
       <ParticlesBackground id = "particles" />
       {/* Foreground Text */}
-      <div className="relative z-10 flex flex-col justify-center items-center pt-48 px-6 pr-20 md:px-12 max-w-screen-xl mx-auto text-center">
+      <div className="relative z-0 flex flex-col justify-center items-center pt-48 px-6 pr-20 md:px-12 max-w-screen-xl mx-auto text-center">
   <h1 className="text-4xl md:text-6xl font-bold font-['system-ui'] mb-2">Arbaj Khan</h1>
   <p className="text-lg md:text-2xl italic font-['system-ui'] mb-6">MERN Stack Developer</p>
 
