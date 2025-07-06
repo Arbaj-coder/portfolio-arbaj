@@ -2,10 +2,9 @@ import React from "react";
 import "./AboutMeModal.css"; // External styling
 
 const skills = [
-    "#javascript", "#react.js", "#redux", "#node.js", "#express.js",
-    "#mongoDB", "#mongoose", "#cloudinary", "#ejs", "#html", "#css",
-    "#sass", "#bootstrap", "#tailwind", "#git", "#github", "#aws",
-    "#terminal", "#adobeXD", "#figma"
+    "#javascript", "#react.js","#node.js", "#express.js",
+    "#mongoDB", "#mongoose", "#ejs", "#html", "#css", "#bootstrap", "#tailwind", "#git", "#github", "#aws",
+    "#terminal", "#figma"
 ];
 
 const AboutMeModal = ({ onClose }) => {
@@ -19,7 +18,7 @@ const AboutMeModal = ({ onClose }) => {
                 <div className="about-right">
                     <h1 className="font-bold text-blue-400" >About Me</h1>
                     <p className="about-text">
-                         I'm Arbaj Khan, a passionate web developer who loves building clean and efficient web applications using React and modern tools like Tailwind CSS. I enjoy solving problems, learning new technologies, and working on meaningful projects. I help business owners and busy web developers to design & develop creative websites that fit their vision and attract visitors to stay forever. Technologies and tools that I use to create such awesome websites.
+                         I'm Arbaj Khan, a passionate web developer who loves building clean and efficient web applications using React and modern tools like Tailwind CSS. I enjoy solving problems, learning new technologies, and working on meaningful projects. Technologies and tools that I use to create such awesome websites.
                     </p>
 
                     <div className="about-skills">
