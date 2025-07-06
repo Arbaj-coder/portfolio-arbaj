@@ -2,7 +2,7 @@ import React from "react";
 import "./AboutMeModal.css"; // External styling
 
 const skills = [
-    "#javascript", "#react.js","#node.js", "#express.js",
+    "#javascript", "#react.js","#node.js", "#express.js", "#redux","#next.js",
     "#mongoDB", "#mongoose", "#ejs", "#html", "#css", "#bootstrap", "#tailwind", "#git", "#github", "#aws",
     "#terminal", "#figma"
 ];
