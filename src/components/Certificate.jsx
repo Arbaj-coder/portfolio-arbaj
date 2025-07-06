@@ -11,6 +11,11 @@ const certificates = [
     description: "Gained hands-on experience with data analysis techniques including data cleaning, visualization, and interpretation using tools like Excel, Python, and SQL. Focused on turning raw data into actionable insights.",
     link: "https://drive.google.com/file/d/1_qhnQAOFx_AxF8_D89MF75Yjc38K_kmO/view?usp=drive_link",
   },
+    {
+    name: "DSA with C++",
+    description: "Learned core data structures and algorithms using Cpp, including arrays, linked lists, stacks, queues, trees, and sorting/searching techniques , graphs , dp , segment trees , greedy Algorithms and heap, hashing. Built problem-solving skills for technical interviews and coding contests.",
+    link: "https://drive.google.com/file/d/1sJK5BdCsMuecjMG0T1uL57aEKRghLMK4/view?usp=drive_link",
+  },
   {
     name: "DSA with Java",
     description: "Learned core data structures and algorithms using Java, including arrays, linked lists, stacks, queues, trees, and sorting/searching techniques. Built problem-solving skills for technical interviews and coding contests.",
