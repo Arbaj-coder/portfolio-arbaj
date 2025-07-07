@@ -28,7 +28,7 @@ const projects = [
     name: "Netflix-ui",
     image: contactimg1,
     skills: ["HTML", "CSS"],
-    link: "https://arbaj-coder.github.io/spotify-ui/",
+    link: "https://mern-task-app-api-buha.onrender.com",
   },
 ];
 
