@@ -22,7 +22,7 @@ const projects = [
     name: "Media player App",
     image: contactimg,
     skills: ["HTML", "CSS", "JS"],
-    link: "https://arbaj-coder.github.io/spotify-by-Arbaj/", // replace with your project URL
+    link: "https://spotify-by-arbaj.onrender.com", // replace with your project URL
   },
   {
     name: "Netflix-ui",
