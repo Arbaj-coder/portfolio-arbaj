@@ -5,7 +5,15 @@ import contactimg from "../assets/images/spotify-image.png"
 import contactimg1 from "../assets/images/netflix-ui-image.png"
 import contactimg2 from "../assets/images/signup-login.png"
 import contactimg3 from "../assets/images/TM-app.png"
+import contactimg4 from "../assets/images/giv-1.png"
 const projects = [
+  
+  {
+  name: "Giveora- A donation app",
+  image: contactimg4,
+  skills: ["Next", "MongoDB" , "React" , "Razorpay-integration" , "Tailwind CSS","NextAuth.js","react-toastify"],
+  link: "https://giveora-1.vercel.app/login",
+  },
   {
   name: "Task Manager App - iTask",
   image: contactimg3,
