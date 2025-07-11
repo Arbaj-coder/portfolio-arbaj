@@ -13,7 +13,7 @@ const AboutMeModal = ({ onClose }) => {
             <div className="about-container">
                 <button className="about-close" onClick={onClose}>×</button>
                 <div className="about-left">
-                    <img src="/your-image.jpg" alt="Arbaj Khan" className="about-img" />
+                    <img src="/arbaj.jpg" alt="Arbaj Khan" className="about-img" />
                 </div>
                 <div className="about-right">
                     <h1 className="font-bold text-blue-400" >About Me</h1>
