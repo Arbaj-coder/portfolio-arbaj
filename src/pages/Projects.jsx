@@ -6,6 +6,7 @@ import contactimg1 from "../assets/images/netflix-ui-image.png"
 import contactimg2 from "../assets/images/signup-login.png"
 import contactimg3 from "../assets/images/TM-app.png"
 import contactimg4 from "../assets/images/giv-1.png"
+import contactimg5 from "/weather.png"
 const projects = [
   
   {
@@ -19,6 +20,12 @@ const projects = [
   image: contactimg3,
   skills: ["React", "MongoDB" , "Express" , "Node.js" , "Tailwind CSS","JWTwebtoken","react-toastify"],
   link: "https://mern-task-app-ui.onrender.com/",
+  },
+  {
+  name: "WeatherSnap- weather app",
+  image: contactimg5,
+  skills: ["React", "Next.js" , "Tailwind CSS","openweathermap-api"],
+  link: "https://weathersnap-git-main-arbaj-khans-projects-847cf902.vercel.app",
   },
   {
   name: "MERN - AUTH APP",
