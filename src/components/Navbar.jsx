@@ -30,6 +30,9 @@ function Navbar() {
             <li>
               <Link to="/projects" className="hover:text-yellow-400">Projects</Link>
             </li>
+            <li>
+              <Link to="https://healnology.in" className="hover:text-yellow-400">Blogs</Link>
+            </li>
             <li><a href="#contact" className="hover:text-[#00ff88]">Contact</a></li>
             <li>
               <div className="flex gap-4 items-center">
@@ -118,6 +121,9 @@ function Navbar() {
     Projects
   </Link>
 </li>
+                      <li>
+              <Link to="https://healnology.in" className="hover:text-yellow-400">Blogs</Link>
+            </li>
 
           <li><a href="#contact" className="hover:text-[#00ff88]">Contact</a>
 </li>
