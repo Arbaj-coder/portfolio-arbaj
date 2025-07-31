@@ -43,7 +43,7 @@ const CompetitiveProfiles = () => {
     {
       platform: "CodeChef",
       image: "https://i.pinimg.com/736x/ef/3c/3f/ef3c3fd973ce6890b32d27be7a050b62.jpg",
-      link: "https://www.codechef.com/users/void_sage_85",
+      link: "https://www.codechef.com/users/arbaj107",
       description: "Rating: 1450 ★★",
     },
   ];
