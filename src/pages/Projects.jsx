@@ -7,7 +7,32 @@ import contactimg2 from "../assets/images/signup-login.png"
 import contactimg3 from "../assets/images/TM-app.png"
 import contactimg4 from "../assets/images/giv-1.png"
 import contactimg5 from "/weather.png"
+import contactimg6 from "/ai-medivoice-2.png"
 const projects = [
+
+  {
+  name: "AiMedi-Voice",
+  image: contactimg6,
+  skills: [
+  "Next.js", 
+  "React", 
+  "Tailwind CSS", 
+  "TypeScript",
+  "NeonDB", 
+  "NextAuth.js", 
+  "Vapi.ai Integration", 
+  "OpenAI GPT-4", 
+  "11Labs Voice Integration", 
+  "AssemblyAI Transcription", 
+  "Stripe / clerk Integration", 
+  "REST APIs", 
+  "react-toastify", 
+  "Framer Motion", 
+  "postgresql"
+]
+
+  link: "https://medi-voice-ai.vercel.app/",
+  },
   
   {
   name: "Giveora- A donation app",
