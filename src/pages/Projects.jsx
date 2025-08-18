@@ -29,7 +29,7 @@ const projects = [
   "react-toastify", 
   "Framer Motion", 
   "postgresql"
-]
+],
 
   link: "https://medi-voice-ai.vercel.app/",
   },
