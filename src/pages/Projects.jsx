@@ -69,7 +69,7 @@ const projects = [
     image: contactimg1,
     skills: ["HTML", "CSS"],
     link: "https://mern-task-app-api-buha.onrender.com",
-  },
+  }
 ];
 
 function Projects() {
