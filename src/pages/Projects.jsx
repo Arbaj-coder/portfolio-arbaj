@@ -8,7 +8,18 @@ import contactimg3 from "../assets/images/TM-app.png"
 import contactimg4 from "../assets/images/giv-1.png"
 import contactimg5 from "/weather.png"
 import contactimg6 from "/ai-medivoice-2.png"
+import contactimg7 from "/1.png"
 const projects = [
+
+   {
+  name: "ChatBuddy",
+  image: contactimg7,
+  skills: [
+ "React.js", "Tailwind CSS" , "Node.js", "Express.js" , "MongoDB" , "Socket.IO" , "WebRTC" ,"JWT" , "bcrypt.js" , "cloudnary"
+],
+
+  link: "https://chatbuddy-frondend.onrender.com/",
+  },
 
   {
   name: "AiMedi-Voice",
