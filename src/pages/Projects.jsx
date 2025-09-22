@@ -9,7 +9,29 @@ import contactimg4 from "../assets/images/giv-1.png"
 import contactimg5 from "/weather.png"
 import contactimg6 from "/ai-medivoice-2.png"
 import contactimg7 from "/1.png"
+import contactimg8 from "/2.png"
 const projects = [
+
+   {
+  name: "DineTime",
+  image: contactimg8,
+ skills: [
+  "React.js", 
+  "Tailwind CSS", 
+  "React Router DOM", 
+  "Node.js", 
+  "Express.js", 
+  "MongoDB", 
+  "Mongoose",
+  "Clerk Auth",   
+  "react-hot-toast", 
+  "Axios",
+    "Stripe"
+]
+,
+
+  link: "https://restaurant-booking-one.vercel.app/",
+  },
 
    {
   name: "ChatBuddy",
